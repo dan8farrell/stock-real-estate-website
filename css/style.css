@@ -87,6 +87,13 @@ figure.last {
 	overflow:hidden;
 	padding-bottom:20px;
 }
+
+.img-box.mazie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
 .extra-wrap {
 	overflow:hidden;
 }
@@ -203,6 +210,7 @@ hgroup h4 {
 }
 .address.last {
 	margin-right:0;
+	width:100%;
 }
 .address dt {
 	margin-bottom:4px;
@@ -365,6 +373,9 @@ aside article {
 aside article.last {
 	margin-bottom:0;
 }
+.map{
+	width:65%;
+}
 .img-list {
 	padding-bottom:9px;
 }
@@ -497,4 +508,9 @@ footer .footerlink {
 }
 a {
 	outline:none;
+}
+/****************************************************************************/
+mazie-img{
+	height:100%;
+	width:100%;
 }
