@@ -27,6 +27,9 @@ header {
 	border-bottom:2px solid #2a2a2a;
 	background:url(../images/header-pattern.gif) 50% 0 #1d1d1d;
 }
+header.listing{
+	height:200px;
+}
 #content {
 	padding:37px 0 90px 0;
 	background:#121212;
@@ -81,6 +84,9 @@ figure.alt {
 }
 figure.last {
 	margin-right:0;
+}
+.last h2{
+	padding-top: 30px;
 }
 .img-box {
 	width:100%;
@@ -177,7 +183,8 @@ hgroup h4 {
 }
 .box {
 	background:url(../images/box-bg.gif) 0 100% repeat-x #b5c83c;
-	padding:24px 18px 40px 20px;
+	padding:24px 18px 10px 20px;
+	margin-bottom: 30px;
 	border:1px solid #c9dd47;
 	border-radius:10px;
 	-moz-border-radius:10px;
@@ -273,11 +280,9 @@ header nav ul li a:hover, header nav ul li a.current {
 	-webkit-border-radius:5px;
 }
 #faded {
-	position:absolute;
-	left:0;
-	top:161px;
-	padding-bottom:20px;
-}
+	position:relative;
+	margin-left:14.5%;
+	}
 #faded .rap {
 	background:url(../images/img-wrapper-bg.jpg) no-repeat 50% 0 #d92400;
 	border:1px solid #e46b00;
@@ -294,6 +299,15 @@ header nav ul li a:hover, header nav ul li a.current {
 }
 #faded .rap img {
 	margin:9px 0 0 9px;
+}
+.float-right{
+	float:right;
+	display:inline;
+	height:90%;
+	width:auto;
+	position: absolute;
+	padding-left:100px;
+	bottom: 15px;
 }
 #faded ul.pagination {
 	position:absolute;
