@@ -280,9 +280,11 @@ header nav ul li a:hover, header nav ul li a.current {
 	-webkit-border-radius:5px;
 }
 #faded {
-	position:relative;
-	margin-left:14.5%;
-	}
+	position:absolute;
+	left:0;
+	top:161px;
+	padding-bottom:20px;
+}
 #faded .rap {
 	background:url(../images/img-wrapper-bg.jpg) no-repeat 50% 0 #d92400;
 	border:1px solid #e46b00;
@@ -297,17 +299,29 @@ header nav ul li a:hover, header nav ul li a.current {
 	z-index:10;
 	overflow:hidden;
 }
+#faded .info-gallery {
+	position:relative;
+	left:33%;
+	top:600px;
+	padding-bottom:20px;
+	background:url(../images/img-wrapper-bg.jpg) no-repeat 50% 0 #d92400;
+	border:1px solid #e46b00;
+	width:589px;
+	height:416px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	box-shadow:-2px 8px 5px rgba(0, 0, 0, .6);
+	-moz-box-shadow:-2px 8px 5px rgba(0, 0, 0, .6);
+	-webkit-box-shadow:-2px 8px 5px rgba(0, 0, 0, .6);
+	z-index:10;
+	overflow:hidden;
+	}
+#faded .info-gallery.description{
+	width:50%;
+}	
 #faded .rap img {
 	margin:9px 0 0 9px;
-}
-.float-right{
-	float:right;
-	display:inline;
-	height:90%;
-	width:auto;
-	position: absolute;
-	padding-left:100px;
-	bottom: 15px;
 }
 #faded ul.pagination {
 	position:absolute;
